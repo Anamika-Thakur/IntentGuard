@@ -1,0 +1,14 @@
+{
+  "name": "intentguard-workspace",
+  "version": "1.0.0",
+  "description": "IntentGuard Monorepo: Deterministic Autonomous Payment Security",
+  "scripts": {
+    "test": "npm --prefix backend test",
+    "typecheck": "npm --prefix backend run typecheck && npm --prefix frontend run build",
+    "backend:dev": "npm --prefix backend run dev",
+    "backend:test": "npm --prefix backend test",
+    "backend:build": "npm --prefix backend run build",
+    "frontend:dev": "npm --prefix frontend run dev",
+    "frontend:build": "npm --prefix frontend run build"
+  }
+}
